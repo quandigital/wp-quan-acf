@@ -1,0 +1,10 @@
+{
+    "name": "quandigital/acf",
+    "description": "Central Additions to ACF/Backup Field Groups",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=5.4"
+    }
+}
