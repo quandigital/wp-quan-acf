@@ -9,7 +9,9 @@ class Plugin extends Boilerplate
     public function __construct($file)
     {
         parent::__construct($file);
-        // $this->hideAcf();
+        if (defined('WP_STAGE') && WP_STAGE !== 'local') {
+            $this->hideAcf();
+        }
         $this->saveJson();
     }
 
