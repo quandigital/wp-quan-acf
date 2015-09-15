@@ -1,0 +1,112 @@
+{
+    "key": "group_55bb6b802d61c",
+    "title": "Image Attribution",
+    "fields": [
+        {
+            "key": "field_530daf0c75608",
+            "label": "Name",
+            "name": "quan_img_name",
+            "type": "text",
+            "instructions": "Enter the name of the copyright holder",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_530daf6575609",
+            "label": "URL",
+            "name": "quan_img_url",
+            "type": "text",
+            "instructions": "Enter the URL to the copyright holder (e.g. http:\/\/www.flickr.com\/photos\/username\/)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_530db1297560a",
+            "label": "License URL",
+            "name": "quan_img_license_url",
+            "type": "text",
+            "instructions": "URL to the license (e.g. https:\/\/creativecommons.org\/licenses\/by\/3.0\/)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_530db14b7560b",
+            "label": "License Name",
+            "name": "quan_img_license_name",
+            "type": "text",
+            "instructions": "Enter the name for the license, if it is a Creative Commons license please enter CC",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1441643111
+}
