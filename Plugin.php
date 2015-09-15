@@ -1,6 +1,6 @@
 <?php
 
-namespace QuanDigital\ACF\Plugin;
+namespace QuanDigital\ACF;
 
 use QuanDigital\WpLib\Boilerplate;
 
