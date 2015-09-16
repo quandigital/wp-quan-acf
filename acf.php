@@ -5,8 +5,10 @@ namespace QuanDigital\ACF;
 /**
  * Plugin Name: Quan ACF
  * Plugin URI: http://www.quandigital.com/
+ * Author: Quan Digital GmbH
+ * Author URI: http://www.quandigital.com/
  * Description: General ACF Settings
- * Version: 1.0.0
+ * Version: 1.0.1
  * License: MIT
  */
 
