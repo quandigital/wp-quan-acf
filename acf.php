@@ -3,10 +3,12 @@
 namespace QuanDigital\ACF;
 
 /**
- * Plugin Name: Quan Post Meta
+ * Plugin Name: Quan ACF
  * Plugin URI: http://www.quandigital.com/
- * Description: Adds meta information to posts (with the help of acf)
- * Version: 1.0.0
+ * Author: Quan Digital GmbH
+ * Author URI: http://www.quandigital.com/
+ * Description: General ACF Settings
+ * Version: 1.0.1
  * License: MIT
  */
 
