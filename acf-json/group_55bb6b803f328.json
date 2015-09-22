@@ -1,13 +1,13 @@
 {
-    "key": "group_55bb6b802d61c",
-    "title": "Image Attribution",
+    "key": "group_55bb6b803f328",
+    "title": "Quan Tweet to Post API Settings",
     "fields": [
         {
-            "key": "field_530daf0c75608",
-            "label": "Name",
-            "name": "quan_img_name",
+            "key": "field_52fb37d2bbe0f",
+            "label": "API key",
+            "name": "quan_tweet_api_key",
             "type": "text",
-            "instructions": "Enter the name of the copyright holder",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -16,20 +16,20 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
+            "placeholder": "(consumer key)",
             "prepend": "",
             "append": "",
-            "formatting": "html",
+            "formatting": "none",
             "maxlength": "",
             "readonly": 0,
             "disabled": 0
         },
         {
-            "key": "field_530daf6575609",
-            "label": "URL",
-            "name": "quan_img_url",
+            "key": "field_52fb383fbbe10",
+            "label": "API secret",
+            "name": "quan_tweet_api_secret",
             "type": "text",
-            "instructions": "Enter the URL to the copyright holder (e.g. http:\/\/www.flickr.com\/photos\/username\/)",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -38,20 +38,20 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
+            "placeholder": "(consumer secret)",
             "prepend": "",
             "append": "",
-            "formatting": "html",
+            "formatting": "none",
             "maxlength": "",
             "readonly": 0,
             "disabled": 0
         },
         {
-            "key": "field_530db1297560a",
-            "label": "License URL",
-            "name": "quan_img_license_url",
+            "key": "field_52fb3858bbe11",
+            "label": "Access token",
+            "name": "quan_tweet_access_token",
             "type": "text",
-            "instructions": "URL to the license (e.g. https:\/\/creativecommons.org\/licenses\/by\/3.0\/)",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -63,17 +63,17 @@
             "placeholder": "",
             "prepend": "",
             "append": "",
-            "formatting": "html",
+            "formatting": "none",
             "maxlength": "",
             "readonly": 0,
             "disabled": 0
         },
         {
-            "key": "field_530db14b7560b",
-            "label": "License Name",
-            "name": "quan_img_license_name",
+            "key": "field_52fb386dbbe12",
+            "label": "Access token secret",
+            "name": "quan_tweet_access_token_secret",
             "type": "text",
-            "instructions": "Enter the name for the license, if it is a Creative Commons license please enter CC",
+            "instructions": "",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -85,7 +85,7 @@
             "placeholder": "",
             "prepend": "",
             "append": "",
-            "formatting": "html",
+            "formatting": "none",
             "maxlength": "",
             "readonly": 0,
             "disabled": 0
@@ -94,19 +94,19 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "options_page",
                 "operator": "==",
-                "value": "post"
+                "value": ""
             }
         ]
     ],
     "menu_order": 0,
-    "position": "side",
+    "position": "normal",
     "style": "default",
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1442924150
+    "modified": 1442924135
 }

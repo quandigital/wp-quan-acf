@@ -1,0 +1,70 @@
+{
+    "key": "group_55bb6b80470bc",
+    "title": "Quan Tweet to Post Settings",
+    "fields": [
+        {
+            "key": "field_52fb7846ef253",
+            "label": "Default User",
+            "name": "quan_tweet_default_user",
+            "type": "user",
+            "instructions": "Please select the default user for tweets (if no other user can be found)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "role": [
+                "administrator",
+                "editor",
+                "author",
+                "contributor",
+                "subscriber"
+            ],
+            "field_type": "select",
+            "allow_null": 0,
+            "multiple": 0
+        },
+        {
+            "key": "field_52fc9a77b0f93",
+            "label": "Twitter Username",
+            "name": "quan_tweet_twitter_username",
+            "type": "text",
+            "instructions": "Please enter the username of the twitteruser you want to get the tweets from.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "html",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1442924122
+}
