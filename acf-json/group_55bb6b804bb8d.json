@@ -1,0 +1,48 @@
+{
+    "key": "group_55bb6b804bb8d",
+    "title": "Summary",
+    "fields": [
+        {
+            "key": "field_529dd97776b4e",
+            "label": "Auszug",
+            "name": "quan_excerpt",
+            "type": "text",
+            "instructions": "Please write a brief abstract of your post in the same language your post is written. Between <span style=\"font-weight:bold;color:black;\">80 and 150 characters (15-20 words)<\/span> would be awesome.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "formatting": "none",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1442936133
+}
