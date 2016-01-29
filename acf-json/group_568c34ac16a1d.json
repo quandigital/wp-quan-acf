@@ -15,11 +15,33 @@
                 "class": "",
                 "id": ""
             },
+            "collapsed": "field_56aa583429bcb",
             "min": "",
             "max": "",
-            "layout": "table",
+            "layout": "row",
             "button_label": "Add Reference",
             "sub_fields": [
+                {
+                    "key": "field_56aa583429bcb",
+                    "label": "Customer Name",
+                    "name": "quan_ref_customer_name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
                 {
                     "key": "field_568c357785c40",
                     "label": "Customer Logo",
@@ -46,9 +68,43 @@
                 },
                 {
                     "key": "field_568c359d85c41",
-                    "label": "Period",
-                    "name": "quan_ref_period",
-                    "type": "text",
+                    "label": "Period from",
+                    "name": "quan_ref_period_from",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "m\/Y",
+                    "return_format": "F Y",
+                    "first_day": 1
+                },
+                {
+                    "key": "field_56aa54af6922c",
+                    "label": "Period To",
+                    "name": "quan_ref_period_to",
+                    "type": "date_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "m\/Y",
+                    "return_format": "F Y",
+                    "first_day": 1
+                },
+                {
+                    "key": "field_56aa4cd343c8b",
+                    "label": "URL",
+                    "name": "quan_ref_url",
+                    "type": "url",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -58,12 +114,67 @@
                         "id": ""
                     },
                     "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_56aa4d4c43c8d",
+                    "label": "Type",
+                    "name": "quan_ref_type",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "b2b": "B2B",
+                        "b2c": "B2C"
+                    },
+                    "default_value": [
+
+                    ],
+                    "allow_null": 1,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 0,
                     "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": "",
-                    "readonly": 0,
-                    "disabled": 0
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_56aa4ce943c8c",
+                    "label": "Languages",
+                    "name": "quan_ref_lang",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "de": "DE",
+                        "en": "EN",
+                        "nl": "NL",
+                        "fr": "FR",
+                        "it": "IT",
+                        "es": "ES"
+                    },
+                    "default_value": [
+
+                    ],
+                    "allow_null": 1,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
                 },
                 {
                     "key": "field_568c35d685c42",
@@ -106,5 +217,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1452029880
+    "modified": 1454053194
 }

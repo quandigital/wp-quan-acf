@@ -8,7 +8,7 @@ namespace QuanDigital\ACF;
  * Author: Quan Digital GmbH
  * Author URI: http://www.quandigital.com/
  * Description: General ACF Settings
- * Version: 1.0.6
+ * Version: 1.0.7
  * License: MIT
  */
 
